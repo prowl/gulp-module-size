@@ -7,7 +7,7 @@ var size = require('../lib/index');
 var gulpMock = {};
 var task = null;
 
-gulpMock.task = function(name, description, deps, func) {
+gulpMock.task = function(name, description, deps, func) {// jshint ignore:line
   task = func;
 };
 
