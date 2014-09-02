@@ -8,7 +8,7 @@ var paths = {
   src: ['**/*.js', '!./node_modules/**', '!./docs/**'],
   specs: ['specs/**/*.js'],
   statements_threshold: 90,
-  functions_threshold: 100,
+  functions_threshold: 50,
   branches_threshold: 100,
   lines_threshold: 80
 };
